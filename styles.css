@@ -1,0 +1,192 @@
+body {
+    background-image: url(https://www.sannicolasciudad.gob.ar/system/articles/main_images/000/000/098/medium/SN_CIUDAD.JPG?1556205572);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    backdrop-filter: saturate(40%) blur(2px);
+}
+.barra li,
+.quehacer li {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0%;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    padding: 8px;
+    width: 100%;
+}
+
+.color1Titulo {
+    background-color: #F24405;
+}
+
+.color2Titulo {
+    background-color: #3F688C;
+}
+
+.color3Titulo {
+    background-color: #7A9FBF;
+}
+
+h3,
+h4,
+h5,
+p,
+.quehacer li {
+    font-size:x-large;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+h1, h2 {
+  font-size: xx-large;
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+}
+
+.intro {
+  color: rgb(9, 9, 46);
+}
+
+.whiteText{
+    font-size: 5px;
+    text-align: left;
+    color: white;
+    padding: 8px;
+    width: 300px;
+    font-weight: 100;
+}
+
+.noticias, .alojamientos, .restaurantes, .guias {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-evenly;
+    background-color: #132d4494;
+}
+
+.noticias p, .alojamientos p, .restaurantes p, .guias p{
+    font-size: medium;
+    text-align: left;
+}
+h3 {
+    width: 100%;
+    background-color: #BFB2A3; 
+    box-shadow: #3f688c6c 0 5px 0 0;
+}
+.calendar{
+    background-color: #132d4494;
+    margin: 0px auto;
+    text-align: center;
+    width: 900px;
+    font-size: medium;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+ol {
+    padding: 0%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.firstday {
+    grid-column-start: 5;
+}
+.diasem{
+    font-weight: bold;
+    text-align: center;
+}
+h6{
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+/* Tooltip container */
+span {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    color: yellow;
+    font-weight: 200;
+  }
+
+  body img {
+    width: 300px;
+    height: 150px;
+  }
+
+
+  footer {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .aside {
+    color:#fff;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: medium;
+  } 
+
+  .imagenaside {
+    margin-top: 15px;
+    margin-left: 39%;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+  }
+
+  .formulario, .formulario2 {
+    background-color: #132d4494;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario2 {
+    margin-bottom: 15px;
+  }
+
+  .boton1, .formbtn {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+  }
+
+.tituloprin {
+  text-decoration:solid;
+  font-weight: 900;
+}
+
+* {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
